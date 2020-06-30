@@ -40,36 +40,7 @@ box-shadow: 1px 1px 5px 3px rgba(199, 193, 193, 0.726);
 }
  
 
-.add-3:hover{cursor: pointer;}
 
-
-
-.add-3
-{
-height: 400px;
-width: 300px;
-background: white;
-margin-top:0px;  
-box-shadow: 1px 1px 5px 3px rgba(199, 193, 193, 0.726);
-}
-
-.add-4
-{
-height: 200px;
-width: 300px;
-background: white;
-margin-top: 55px;  
-box-shadow: 1px 1px 5px 3px rgba(199, 193, 193, 0.726);
-}
-
-.add-4 div{
-    border:1px solid black;
-    border-radius: 20px;
-    height: 18px;width: 40px;
-    margin: 5px;display:flex;
-    float: right;
-    
-}
 
 #menu ul li{float: right;
     height: 40px;
