@@ -32,6 +32,7 @@ box-shadow: 1px 1px 5px 3px rgba(199, 193, 193, 0.726);
 .add-1
 {
 height: 800px;
+float: left;
 width: 300px;
 background: white; 
 margin-top: 200px;
