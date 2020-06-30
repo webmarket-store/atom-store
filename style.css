@@ -173,6 +173,8 @@ box-shadow: 1px 1px 5px 3px rgba(199, 193, 193, 0.726);
     font-family:samim fd-wol;
 }
 
+.button h5{font-family:samim fd-wol;}
+
 #profile
 {
 margin-top: 1px;
