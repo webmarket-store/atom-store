@@ -208,15 +208,3 @@ background:white;
 
 #profile img{height: 100px;}
 
-#top{height: 40px;width:110px;background: white;float: left;;margin-left: 20px;}
-
-#pot{height: 40px;width:50px;background: white;float: left;
-margin-left: 30px;border-bottom:2px solid rgb(12, 152, 156);}
-
-#top h2{font-family:samim fd-wol;margin-right: 5px;}
-
-#top h2:hover{cursor: pointer;}
-
-#pot h2:hover{cursor: pointer;}
-
-#pot h2{font-family:samim fd-wol;margin-right: 10px;;}
