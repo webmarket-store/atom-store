@@ -170,7 +170,7 @@ box-shadow: 1px 1px 5px 3px rgba(199, 193, 193, 0.726);
     height: 35px;
     border:1px solid black ;
     border-right: none;
-    font-family: samim fd-wol;
+    font-family:samim fd-wol;
 }
 
 #profile
@@ -205,7 +205,7 @@ background:white;
 
 #main-shop div img:hover{cursor: pointer;border: 2px dotted rgb(113, 196, 199);}
 
-#gy{height: 10px;}
+
 
 #main-shop div p{margin-right: 10px;font-family:samim fd-wol ;font-size: 20px;float: left;margin-left: 495px;}
 
