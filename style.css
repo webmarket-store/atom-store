@@ -1,5 +1,8 @@
 *{margin:0px;padding:0px;box-sizing: border-box;}
 
+
+
+
 #menu
 {
   
@@ -37,6 +40,7 @@ width: 300px;
 background: white; 
 margin-top: 10px;
 box-shadow: 1px 1px 5px 3px rgba(199, 193, 193, 0.726);
+margin-left: 10px;
 }
  
 
@@ -141,11 +145,16 @@ box-shadow: 1px 1px 5px 3px rgba(199, 193, 193, 0.726);
 #profile
 {
 margin-top: 1px;
-height: 100px;
+height: 120px;
 width: 1349px;
 margin-bottom: 0px;  
 background:white;
 }
+
+.industry{border: 1px solid rgba(199, 187, 187, 0.815);margin-top: 5px;width: 100px;margin: auto;width: 1200px;
+          height: 400px;}
+
+          
 
 .small-1{height: 50px;width: 299px;background:white;border-bottom: 1px solid rgb(236, 228, 228);}
 
@@ -173,5 +182,4 @@ background:white;
 
 
 #main-shop div p{margin-right: 10px;font-family:samim fd-wol ;font-size: 20px;float: left;margin-left: 495px;}
-
 
