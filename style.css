@@ -7,11 +7,11 @@
 {
   
 height: 40px;
-width: 1349px;
+width: 100%px;
 top: 0;
 position: fixed;
 margin-bottom:100px ;
-margin-bottom: 0px;  
+margin:auto;
 box-shadow: 1px 1px 7px 0px rgb(163, 151, 151);
 background: white;
 
