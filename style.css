@@ -8,7 +8,8 @@
   
 height: 40px;
 width: 1349px;
-position: sticky;
+top: 0;
+position: fixed;
 margin-bottom:100px ;
 margin-bottom: 0px;  
 box-shadow: 1px 1px 7px 0px rgb(163, 151, 151);
@@ -144,7 +145,7 @@ margin-right: 10px;
 #profile
 {
 margin-top: 1px;
-height: 120px;
+height: 150px;
 width: 1349px;
 margin-bottom: 0px;  
 background:white;
