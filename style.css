@@ -150,7 +150,7 @@ margin-bottom: 0px;
 background:white;
 }
 
-.industry{border: 1px solid rgba(199, 187, 187, 0.815);margin-top: 5px;width: 100px;margin: auto;width: 1200px;
+.industry{border: 1px solid rgba(199, 187, 187, 0.815);margin-top: 5px;width: 100px;margin: auto;width: 1326px;
           height: 400px;}
 
           
@@ -166,7 +166,7 @@ background:white;
 .add-1 div a{margin:auto;font-family:samim fd-wol;text-decoration: none;
     color: rgb(12, 152, 156);line-height:40px;}
 
- #cover{border-top: 1px solid gray;width: 1000px;}   
+ #cover{border-top: 1px solid rgb(231, 225, 225);width: 1000px;}   
 
 #cover div a:hover{cursor: pointer;color: black;}
 
