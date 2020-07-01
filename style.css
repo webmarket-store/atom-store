@@ -9,7 +9,7 @@
 height: 40px;
 width: 1349px;
 position: sticky;
-top: 0;
+margin-bottom:100px ;
 margin-bottom: 0px;  
 box-shadow: 1px 1px 7px 0px rgb(163, 151, 151);
 background: white;
@@ -23,7 +23,7 @@ background: white;
 {
 margin-right: 10px;
 height: 1650px;
-width: 1000px;
+width: 1326px;
 margin-top: 0px;
 margin-bottom:20px;
 background: white;
@@ -34,15 +34,19 @@ box-shadow: 1px 1px 5px 3px rgba(199, 193, 193, 0.726);
 
 .add-1
 {
-height: 800px;
-float: left;
-width: 300px;
+height: 200px;
+width: 1327px;
 background: white; 
 margin-top: 10px;
 box-shadow: 1px 1px 5px 3px rgba(199, 193, 193, 0.726);
 margin-left: 10px;
+margin-right: 10px;
 }
+
  
+
+
+
 
 
 #menu ul li{float: right;
@@ -51,13 +55,8 @@ margin-left: 10px;
     width: 98px;
     text-align: center;
     list-style: none;
-    background: white;
-
-    
+    background: white;    
 }
-
-
-
 
 #menu li a{text-decoration: none;
     color: black;}
@@ -156,16 +155,20 @@ background:white;
 
           
 
-.small-1{height: 50px;width: 299px;background:white;border-bottom: 1px solid rgb(236, 228, 228);}
+.small-1{background:white;border-bottom: 1px solid rgb(236, 228, 228);}
 
 #cover div{height: 45px;width: 200px;background: white;border: 2px solid rgb(236, 228, 228);
-    border-radius:4px;align-items: center;margin-right: 50px;margin-top: 10px;font-family:treditional arabic;}
+    border-radius:4px;;margin-right: 5px;margin-top: 10px;font-family:treditional arabic;
+    }
 
-#cover div:hover{width: 220px;transition: all 0.2s ease;}
+.add-1 div{display: flex;height: 50px;width: 2000px;align-items: center}
 
-#cover div a{font-family:samim fd-wol;text-decoration: none;color: rgb(12, 152, 156);margin-right:10px;line-height:40px;}
+.add-1 div a{margin:auto;font-family:samim fd-wol;text-decoration: none;
+    color: rgb(12, 152, 156);line-height:40px;}
 
-#cover div a:hover{cursor: pointer;}
+ #cover{border-top: 1px solid gray;width: 1000px;}   
+
+#cover div a:hover{cursor: pointer;color: black;}
 
 .title{font-size: 30px;font-family:samim fd-wol;margin: 10px;width: 300px;color:#1a5555;}
 
