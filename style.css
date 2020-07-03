@@ -25,14 +25,7 @@
                         } 
                          }                                    
                  
-                         @media screen and (max-width: 700px) { 
-                            #menu { width: 500px;top: 0;height: 40px; top: 0;position: fixed;
-                              background: white;box-shadow: 1px 1px 7px 1px rgb(207, 203, 203);
-                              margin: auto;margin-right: 50px;
-                              
-                               
-                                 }
-                                }
+                  
 
    @media screen and (min-width: 700px) { 
     .completer{ width: 400px;float: left; background: white;height: 40px;margin-left: 30px;}
@@ -60,7 +53,7 @@
 
         height: 35px;
         width: 245px;
-        margin-right: 250px;
+        margin-right: 100px;
         margin-top: 2px;position: relative;position: fixed;}      
   } 
 
@@ -78,7 +71,7 @@
   @media screen and (max-width: 700px) { 
     #content{ margin-right: 10px;
         height: 1500px;
-        width: 700px;
+        width: 450px;
         margin: 5px;
         margin:auto ;
         margin-bottom:20px;
