@@ -80,7 +80,7 @@
     #content{ margin-right: 10px;
         height: 1500px;
         width: 440px;
-        margin:auto;
+        margin-right:1px;
         margin-bottom:20px;
         background: white;
         box-shadow: 1px 1px 5px 1px rgba(199, 193, 193, 0.726);}
