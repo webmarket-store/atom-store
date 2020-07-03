@@ -25,11 +25,12 @@
                         } 
                          }                                    
                  
- @media screen and (max-width: 700px) { 
-     #menu {height: 40px; width: 600px;top: 0;position: fixed;
-     background: white;box-shadow: 1px 1px 7px 1px rgb(207, 203, 203);
-        }
-   }
+                         @media screen and (max-width: 700px) { 
+                            #menu { width: 100px;top: 0;position: fixed;height: 40px; top: 0;position: fixed;
+                              background: white;box-shadow: 1px 1px 7px 1px rgb(207, 203, 203)
+                               
+                                 }
+                                }
 
    @media screen and (min-width: 700px) { 
     .completer{ width: 400px;float: left; background: white;height: 40px;margin-left: 30px;}
