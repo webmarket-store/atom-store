@@ -79,8 +79,9 @@
   @media screen and (max-width: 700px) { 
     #content{ margin-right: 10px;
         height: 1500px;
-        width: 400px;
-        margin-right:1px;
+        width: 450px;
+        margin: 5px;
+        margin:auto;
         margin-bottom:20px;
         background: white;
         box-shadow: 1px 1px 5px 1px rgba(199, 193, 193, 0.726);}
@@ -108,8 +109,9 @@
   }
   
   @media screen and (max-width: 700px) { 
-    .industry{ border: 1px solid rgba(199, 187, 187, 0.815);margin-top: 5px;width: 460px;margin: auto;
-        height: 100px;}
+    .industry{ border: 1px solid rgba(199, 187, 187, 0.815);margin-top: 5px;margin: auto;
+        height: 100px;width: 450px;
+        }
   }
 
   @media screen and (min-width: 700px) { 
@@ -124,14 +126,12 @@
 
   @media screen and (max-width: 700px) { 
     .add-1{ height: 300px;
-        width: 460px;
+         width: 450px;
         background: white; 
         margin-top: 10px;
         margin: auto;
         margin-bottom: 8px;
-        box-shadow: 1px 1px 5px 1px rgba(199, 193, 193, 0.726);
-        margin-left: 10px;
-        margin-right: 10px;}
+        box-shadow: 1px 1px 5px 1px rgba(199, 193, 193, 0.726);}
   }
 
   @media screen and (min-width: 700px) { 
