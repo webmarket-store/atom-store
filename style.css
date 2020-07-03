@@ -32,7 +32,7 @@
                                 }
  @media screen and (max-width: 700px) { 
      #menu {height: 40px; width: 600px;top: 0;position: fixed;
-     background: white;box-shadow: 1px 1px 7px 1px rgb(207, 203, 203);margin-left: 500px;
+     background: white;box-shadow: 1px 1px 7px 1px rgb(207, 203, 203);
         }
    }
 
@@ -110,7 +110,7 @@
   
   @media screen and (max-width: 700px) { 
     .industry{ border: 1px solid rgba(199, 187, 187, 0.815);margin-top: 5px;margin: auto;
-        height: 100px;width: 450px;
+        height: 100px;width: 450px;margin-right: 500px;
         }
   }
 
