@@ -6,14 +6,17 @@
     }
 
     @media screen and (max-width: 700px) { 
-        #menu ul li { width:65px} 
+        #menu ul li { width:65px;right: 0;} 
         }
+        @media screen and (max-width: 700px) { 
+          #menu ul  {position: fixed;  } 
+          }       
 
         @media screen and (min-width: 700px) { 
             #menu ul li a { font-weight: 600;font-family: samim fd-wol ;font-size: 13px;} 
             }
  @media screen and (max-width: 700px) { 
-       #menu ul li a { font-size: 12px; font-weight: 600;font-family: samim fd-wol;margin-right: 0px; } 
+       #menu ul li a { font-size: 12px; font-weight: 600;font-family: samim fd-wol;margin-right: 0px;} 
         }
 
      
@@ -29,6 +32,10 @@
 
    @media screen and (min-width: 700px) { 
     .completer{ width: 400px;float: left; background: white;height: 40px;margin-left: 30px;}
+  }
+
+  @media screen and (max-width: 700px) { 
+    .completer{ width: 300px; background: white;height: 40px;margin-left: 30px;}
   }
 
   @media screen and (min-width: 700px) { 
@@ -53,7 +60,7 @@
 
         height: 35px;
         width: 245px;
-        margin-right: 100px;
+        margin-right: 150px;
         margin-top: 2px;position: relative;position: fixed;}      
   } 
 
@@ -71,7 +78,7 @@
   @media screen and (max-width: 700px) { 
     #content{ margin-right: 10px;
         height: 1500px;
-        width: 400px;
+        width: 420px;
         margin: 5px;
         margin:auto ;
         margin-bottom:20px;
@@ -90,19 +97,19 @@
   @media screen and (max-width: 700px) { 
     #profile{ margin-top: 1px;
         height: 150px;
-        width: 400px;
+        width: 420px;
         margin-bottom: 0px;  
         background:white;margin:auto ;}
   } 
 
   @media screen and (min-width: 700px) { 
-    .industry{ border: 1px solid rgba(199, 187, 187, 0.815);margin-top: 5px;width: 100px;margin: auto;width: 1326px;
+    .industry{ border: 1px solid rgba(199, 187, 187, 0.815);margin-top: 5px;margin: auto;width: 1326px;
         height: 230px;}
   }
   
   @media screen and (max-width: 700px) { 
     .industry{ border: 1px solid rgba(199, 187, 187, 0.815);margin-top: 5px;
-        height: 100px;width: 450px;margin:auto ;
+        height: 100px;width: 420px;margin:auto ;
         }
   }
 
@@ -118,10 +125,10 @@
 
   @media screen and (max-width: 700px) { 
     .add-1{ height: 300px;
-         width: 450px;
+         width: 420px;
         background: white; 
-        margin-top: 5px;
-        margin-bottom: 8px;margin:auto ;
+        margin-right: 30px;
+        margin-bottom: 10px;
         box-shadow: 1px 1px 5px 1px rgba(199, 193, 193, 0.726);}
   }
 
@@ -175,12 +182,12 @@
 
 
   @media screen and (max-width: 700px) { 
-    .title{font-size: 30px;font-family:samim fd-wol;margin: 10px;width: 300px;color:#1a5555;}
+    .title{font-size: 26px;font-family:samim fd-wol;margin: 10px;width: 300px;color:#1a5555;}
 
 
 .buy-2{height: 10px;background: white;width:100px; margin-left: 10px;margin-top: 30px;}
 
-.buy-2 div{height: 200px;width: 440px;background: white;
+.buy-2 div{height: 200px;width: 410px;background: white;
 ;border-bottom: 1px solid rgba(199, 187, 187, 0.815);margin-bottom:10px;
       }
 
