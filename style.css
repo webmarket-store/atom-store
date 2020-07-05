@@ -34,9 +34,6 @@
     .completer{ width: 400px;float: left; background: white;height: 40px;margin-left: 30px;}
   }
 
-  @media screen and (max-width: 700px) { 
-    .completer{ width: 300px; background: white;height: 40px;margin-left: 30px;}
-  }
 
   @media screen and (min-width: 700px) { 
     #search{ margin: 0;
