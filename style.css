@@ -1,36 +1,40 @@
-*{margin: 0px;padding: 0px;}
+*{margin: 0px;padding: 0px;direction: rtl;}
 
 @media screen and (min-width: 700px) { 
   #header{position: fixed;height: 45px;width: 1366px;box-shadow: 1px 1px 7px 0px rgb(189, 184, 184); background: white} 
+
+  #btn{height: 33px;width: 40px;margin-top:5px;margin-right:0px;border:1px solid gray;background: white;
+    border-right: 1px solid white;;border-bottom-left-radius: 5px;border-top-left-radius:5px;} 
+
+    #search{height: 31px;width: 300px;margin-top:5px;margin-right:600px;border: 1px solid gray;;margin-left: 0px;
+      border-left: 1px solid rgb(194, 188, 188);border-bottom-right-radius: 5px;border-top-right-radius:5px;}
+
+      #btn:hover{cursor: pointer;}     
+       #box{
+    background: white;
+     width: 900px;
+       direction: rtl;
+      height: 40px;
+        display: flex;}
+ 
   } 
 
   @media screen and (max-width: 700px) { 
     #header {position: fixed;box-shadow: 1px 1px 7px 0px rgb(189, 184, 184);height: 45px;width: 500px;} 
-    } 
 
- @media screen and (min-width: 700px) { 
-  #search{height: 31px;width: 300px;margin-top:5px;margin-right:600px;border: 1px solid gray;;margin-left: 0px;
-          border-left: 1px solid gray ;}
-  }
-           
+    #search{height: 30px;width: 400px;margin-top:5px;margin-right:50px;border: 1px solid gray;;margin-left: 0px;
+      border-left: 1px solid rgb(194, 188, 188);border-bottom-right-radius: 5px;border-top-right-radius:5px;;} 
+
+  #box{
+  background: white;
+    width: 900px;
+     direction: rtl;
+    height: 40px;
+      display: flex;}
+ 
+  #btn{height: 32px;width: 30px;margin-top:5px;margin-right:0px;border:1px solid gray;background: white;
+  border-right: 1px solid white;;border-bottom-left-radius: 5px;border-top-left-radius:5px;} 
   
 
-  @media screen and (max-width: 700px) { 
-    #search{height: 30px;width: 200px;margin-top:5px;margin-right:50px;border: 1px solid gray;} 
-    }
+    } 
 
-  @media screen and (min-width: 700px) { 
-  #btn{height: 33px;width: 40px;margin-top:5px;margin-right:0px;border:1px solid gray;background: white;
-       border-right: 1px solid white;} 
-
-  #btn:hover{cursor: pointer;}   
-
-  }
-
- #box{
-  background: red;
-  width: 1000px;
-
-  height: 40px;
-  display: flex;}
- 
