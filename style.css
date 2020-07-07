@@ -22,7 +22,7 @@
   @media screen and (max-width: 700px) { 
     #header {position: fixed;box-shadow: 1px 1px 7px 0px rgb(189, 184, 184);height: 45px;width: 500px;} 
 
-    #search{height: 30px;width: 400px;margin-top:5px;margin-right:50px;border: 1px solid gray;;margin-left: 0px;
+    #search{height: 30px;width: 350px;margin-top:5px;margin-right:10px;border: 1px solid gray;;margin-left: 0px;
       border-left: 1px solid rgb(194, 188, 188);border-bottom-right-radius: 5px;border-top-right-radius:5px;;} 
 
   #box{
