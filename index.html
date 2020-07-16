@@ -1,63 +1,140 @@
 <!DOCTYPE html>
 <html>
-<head><title>sallam</title>
+<head><title>my first web site</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+
+   
+
     <script type="text/javascript"src="script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
-
-
 <body style="direction: rtl;">
 
-    <div id="main">
+<div id="menu">
+   
+    <p id="logo">women voice</p>
 
-      
+<form method="get" action="http://www.google.com/search">
+    <input id="search-box" type="text" name="q" size="25" maxlength="255" value="" 
+    placeholder="مطلب مورد نظر تان را جستجو کنید..." / style="font-family: samim fd-wol;">
+    <input type="hidden" name="sitesearch" value="https://webmarket-store.github.io/atom-store/"/>
+    <button id="button"><img src="https://img.icons8.com/ios-glyphs/2x/search.png" id="search-icon"></button>
+    </form>
 
-        <form action="http://www.google.com/search" id="box" method="get">
-              <input type="text" id="search" name="q" size="20" placeholder="  جستجو از طریق گوگل  "
-              style="font-family: samim fd-wol ;font-size: 13px;">
-              <i class="fas fa-search"></i>
-              <button id="btn"><img src="https://img.icons8.com/material-sharp/2x/search.png" style="height: 22px;"></button>
-              <input type="hidden" name="sitesearch" value="https://webmarket-store.github.io/atom-store/" >
-                       
-        </form>
+<img src="https://img.icons8.com/material-rounded/72/menu.png" id="menu-icon"onclick="sidebar()"
+onclick="trans()"> 
 
-        <div id="center"> 
-       
-        <div id="body">
-            
-            <div id="head">
-                <div class="cover">
-                <img src="https://img.icons8.com/ios-glyphs/2x/menu.png" class="icon">             
+<p id="text-1">حمایت مالی</p> 
+
+<nav id="sidebar">
+    <ul>
+        <li><a href="#">صفحه اصلی</a></li>
+        <li> <a href="#">تماس با ما</a></li>
+        <li><a href="#">تبلیغات</a></li>
+        <li><a href="#">نوشیدنی ها</a></li>
+        <li><a href="#">موتر </a></li>
+        <li><a href="#">موبایل</a></li>
+        <li><a href="#">لوازم جانبی موبایل</a></li>
+        <li><a href="#">کامپیوتر</a></li>
+        <li><a href="#">متفرقه</a></li>
+    </ul>
+</nav>
+</div>  
+
+<div id="profile"></div>
+
+<div id="main-side-div">
+<div id="other">
+    <div class="title-1">
+        <h2 style="font-family: samim fd-wol;margin-top: 10px;margin-right: 10px;">دیگر مطالب مان</h2>
+    </div>
+    <div class="cont-oth">
+
+    <a href="#">عدالت چیست</a>
+    <a href="#">زن و حقوق ان</a>
+    <a href="#">قانون اساسی </a>
+    <a href="#">زن از دید اسلام</a>
+    <a href="#">هنر از دید اسلام</a>
+    <a href="#">خشونت علیه زن</a>
+    <a href="#">حق تحصیل زن</a>
+    <a href="#">حق کار زن</a>
+
+    </div>
+</div>
+<div id="other-2">
+    <div class="title-2">
+        <h2 style="font-family: samim fd-wol;margin-top: 10px;margin-right: 10px;">جدیدترین اخبار</h2>
+        <div class="cont-oth-2">
+
+            <a href="#">انتحای</a>
+            <a href="#">انفجار</a>
+            <a href="#">دزدی </a>
+            <a href="#">ادم ربایی</a>
+            <a href="#">موتر دزدی</a>
+            <a href="#">امدن داعش</a>
+            <a href="#">امدن طالب</a>
+            <a href="#">امدن القاعده</a>
+        
             </div>
-          
-        <div class="chart">           
-     
-<ul>
-<li><img src="https://img.icons8.com/ios-glyphs/2x/menu.png"><a href="#">sallam</a></li>
-<li><img src="https://img.icons8.com/ios-glyphs/2x/menu.png"><a href="#">fetures</a></li>
-<li><img src="https://img.icons8.com/ios-glyphs/2x/menu.png"><a href="#">documment</a></li>
-<li><img src="https://img.icons8.com/ios-glyphs/2x/menu.png"><a href="#">book</a></li>
-<li><img src="https://img.icons8.com/ios-glyphs/2x/menu.png"><a href="#">home</a></li>
-</ul>
-        </div> 
+    </div>
+
+</div>
+<div id="tags">
+    <div class="title-3">
+        <img src="https://img.icons8.com/material-sharp/2x/tags.png"
+            style="width:35px;margin:5px;">
+  <h2 style="font-family: samim fd-wol;margin-top: 5px;margin-left: 140px;float: left;">برچسپ ها</h2>
+    </div>
+    <div id="main-tag">
+    <div id="content-tags">  
+     <p>کتاب</p>
+ <p>کتاب</p>
+     <p>کتاب</p>
+       <p>کتاب</p>
+        <p>کتاب</p>
   
+         
+
     </div>
+
+    <div id="content-tags-1">
+        <p>کتاب</p>
+        <p>کتاب</p>
+            <p>کتاب</p>
+              <p>کتاب</p>
+               <p>کتاب</p>
+
     </div>
-    </div> 
+
+    <div id="content-tags-2">
+        <p>کتاب</p>
+        <p>کتاب</p>
+            <p>کتاب</p>
+              <p>کتاب</p>
+               <p>کتاب</p>
+
     </div>
 
+    <div id="content-tags-3">
+        <p>کتاب</p>
+        <p>کتاب</p>
+            <p>کتاب</p>
+              <p>کتاب</p>
+               <p>کتاب</p>
 
+    </div>
+</div>
+    
+</div>
+</div>
 
-<div id="info"></div>    
+<div id="main-text">
 
-<div id="photo"></div>
-
-
-<div id="menu"></div>
+</div>
 
 
 
@@ -65,5 +142,4 @@
 
 
 </body>
-
 </html>
