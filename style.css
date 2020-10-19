@@ -1,578 +1,1276 @@
 *{
     margin: 0px;
     padding: 0px;
-    
 }
 @media screen and (min-width:700px){
-.top-menu{
+
+
+.x-top{
+    z-index: 1;
+    width:100%;
     height: 80px;
-    width: 100%;
-    background: rgb(15, 15, 15);
-    position: fixed;
-    top: 0px;
-z-index: 1;
-    border-bottom: 1px solid rgb(29, 29, 29)  
+ background:rgb(255, 254, 254);
+ position: fixed;
+ top: 0px;
 }
-.best-in-this-genre{
-    color:cyan;font-family:Arial, Helvetica, sans-serif;
-line-height: 60px;margin-top: 10px !important;;
-margin-right: 80px !important;
+.cvdiv{
+    display:flex;border-bottom:1px solid rgb(71, 71, 133);
 }
-.best-dev{
-    height: 60px;width: 100%;margin-left:40px ;
+.cvdiv p{
+    font-family: sans-serif;font-size: 80px;color:rgb(71, 71, 133);
+margin-left: 20px;padding-bottom: 10px;
 }
-.back-img-top{
-    width: 100%;height: 430px;z-index:-1;position: absolute;object-fit: cover;
+.titletxtpip p{
+    color:rgb(71, 71, 133);font-size: 35px; padding-top:30px;font-family: sans-serif;
 }
-#search{
-    height: 80px;
-    color: white;
+#menuicon{
+    display: none;
 }
-.movie-slider{
-
-    background: rgba(0,0,0,0.7);
-    margin-top: 80px !important;
- height:415px;
-    width: 90%;
-
-flex-wrap: wrap;
-width: 100%;
-   padding-top: 10px;
-
-   padding-bottom: 5px;
-    display: flex;
+.firstprof{
+    width: 97%;
     margin: auto;
-}
-.main-cover {
-height: 100%;
+    height: 400px;
+    background:white;
+    border-radius:4px;
+    margin-top: 100px;
     display: flex;
-
-    flex-wrap: wrap;
-
-
-margin-left:58px ;
-
 }
-.cover-1{
-    width: 170px;
-    transition: 0.2s;
-    margin-bottom: 10px;
-    margin-top:40px ;
-    height: 280px;
-    display: flex;
-    border-radius: 2px;
-    overflow: hidden;
-    border: 1px solid rgb(25, 25, 25) ;
-margin-right: 40px;
-    background: rgba(0,0,0,0.1);
 
+.work{
+    width: 97%;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: white;
+    margin-bottom: 70px;
+    border-radius:4px;
+    margin-top: 70px;
+    flex-direction: column;
    
 }
 
-#search{
-    color: white;
-    margin-left: 200px;  
-    line-height: 75px;
-    font-size: 25px;
+.ably{
+    width: 97%;
+    margin: auto;
+    height: 530px;
+    background: #eee;
+    border-radius:4px;
+    margin-top: 70px; 
 }
-#search:hover{
-    color: cyan;
-    cursor: pointer;
-}
-#menu-icon{
-    color: white;
-font-size: 25px;
-float: left;
-    left: 35px;
-    top: 25px;
-    position: absolute;
-}
-#menu-icon:hover{
-    color: cyan;
-    cursor: pointer;
-}
-.cover-1 img{
-    object-fit:cover ;
-    width: 100%;
-    height: 280px;
-    transition: 0.2s;
-}
-
-.cover-1 p{
-    font-size: 14px;
-    background: red;
-    font-weight: bold;
-    font-family: samim fd-wol;
-    float:right;
-    margin-right: 10px;
-    transition: 0.2s;
-    z-index:-1;
-
-    color: white;
-}
-#sidebar{
-    height: 100%;
-    width: 280px;
-  z-index: 1;
-    background: rgb(15, 15, 15);;
-    float: right;
-    left: -500px;
-    top: 0px;
-    
-    position: absolute;
-    position: fixed; 
-    direction: ltr;
-}
-#sidebar nav ul li{
-height: 45px;
-padding-bottom: 5px;
-
-}
-#sidebar nav ul li a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    
-    font-family: sans-serif;
-    padding-left: 20px;
-    font-size: 18px;
-    display:block;
-    width: 100%;
- line-height: 45px;
-    border-right: 2px solid transparent;
-}
-.sgin-in{
-    float: right;
-    margin: 10px;
-    margin-top:20px !important;
-    margin-right:30px !important;
-    padding: 10px;
-    padding-right:20px;
-    padding-left:20px;
-    border: 1px solid cyan;
-    border-radius: 4px;
-}
-.sgin-in p{
-    color: white;
-    font-family: sans-serif;
-    font-size: 15px;
-}
-.sgin-in:hover{
-    background: cyan;
-    cursor: pointer;
-}
-.sgin-in:hover p{
+.myname{
+    font-family: freestyle script regular;
     color: black;
-}
-
-#sidebar nav ul li:hover{
-   background: rgb(41, 39, 39);
-border-left: 1px solid cyan ;
-}
-#sidebar nav ul li:hover a{
-    color: cyan;
-}
-.cover-1:hover{
-cursor: pointer;
-transition: 0.2s ;
-cursor: pointer;
-background: rgba(0,0,0,0.9);
-
-
-
-}
-.cover-1  img:hover{
-width: 100%;
-height: 320px;
- transition: 0.2s;
-
- border: 1px solid (0,0,0,0.9);
-
-}
-.cover-1:hover p{
-    display: none;
-}
-.header{
-    height: 80px;
-    width: 100%;
-    border-bottom: 1px solid rgb(41, 40, 40) ;
-}
-.header span{
-    font-size: 25px;
-    line-height: 80px;
+    font-size:40px;
+    width: 300px;
     position: absolute;
-    color:white;
-    left: 20px;
+    margin: 15px;
 }
-.header span:hover{
-    color: cyan;
+#tagtop1{
+    font-family:sans-serif ;
+    color: black;
+    font-size:20px;
+    float: right;
+    padding-right: 35px;
+    height: 100%;
+    line-height: 80px;
+    margin-right: 10px;
+}
+#tagtop1:hover{
+    color:rgb(71, 71, 133) ;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.proimg{
+    height:400px;
+    width: 400px;
+}
+.fir1{
+    font-size: 80px;font-family: sans-serif;color:rgb(71, 71, 133)
+}
+.fir2{
+    font-size: 30px;font-family: sans-serif;color:rgb(17, 17, 17) ;
+}
+.firsttxt{
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.card{
+    width: 250px;
+    height: 380px;
+    background: #f5f5f5;
+    margin: 40px;
+    border: 1px solid rgb(221, 219, 219);
+    border-radius: 7px;
+}
+.titcode{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.titcode p{
+    color: black;
+    font-size:20px;
+    font-family: sans-serif;
+}
+.txtcode div p{
+font-family: sans-serif;
+color: rgb(49, 48, 48);
+
+}
+.cvimg{
+  margin-left:20px ;
+    margin-top: 30px;
+width:600px;
+box-shadow: 1px 1px 5px 7px gray;
+
+}
+.morecvbtn{
+    width: 200px;
+    height: 50px;
+    border: 2px solid rgb(71, 71, 133);
+    text-align: center;
+ margin-left: 630px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+
+.morecvbtn:hover{
+    background:rgb(71, 71, 133);
+    cursor: pointer;
+
+}
+
+.morecvbtn:hover p{
+    color: white;
+}
+
+.morecvbtn p{
+    color:  black;
+    margin-top:13px ;
+    font-family: sans-serif;
+    font-size: 20px ;
+}
+
+.imagesslider{
+    display: flex;width:430px;
+ margin-left: 35%;background: white;padding:10px;padding-left: 0px; 
+  padding-right:0px ;
+}
+#arowout{
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+    margin-top: 100px;
+margin-left: 10px !important;
+    display: none;
+    width: 50px !important;
+    background: white;
+    box-shadow: 1px 1px 4px 5px gray;
+   
+
+
+}
+#arowout:hover{
+    background: rgb(71, 71, 133);
+    box-shadow: 1px 1px 4px 5px rgb(71, 71, 133);
+    color: white;
     cursor: pointer;
 }
-#search-box{
-    left: 300px;
-    top: 15px;
-  position: absolute;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
- border: 1px solid gray;
- outline: none;
- border-right: none;
- color: white;
-  background: rgb(29, 29, 29);
-  width: 480px;
-  height: 45px;
-  direction: ltr;
-  line-height: 80px;
-  padding: 6px;
+#cvbox{
+    display: none;
+    margin: auto;
+    
+    margin:auto;
+    margin-top: 20px;
 }
-#button{
-    left: 780px;
-  color: gray;
-  font-size: 20px;
-    position:absolute;
-    background: rgb(29, 29, 29);
-    height: 45px;
-    top: 15px;
-    outline: none;
-    width: 40px;
-    border: 1px solid gray;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-  border-left: none;
-  }
+#cvbox img{
+    margin-left: 100px;
+}
+.cards{
+    justify-content: space-around;display: flex;
+}
+}
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
 
-  #button:hover{
-    cursor: pointer;
-    color: cyan;
-  }
-  .main-wid-box{
-      width: 900px;
-      display: flex;
-      flex-wrap: wrap;
-      border-bottom:1px solid rgba(73, 73, 73, 0.5) ;
-     margin-left: 40px !important;
-      margin: 25px;
-      margin-bottom: 0px !important;
-  }
-  .film-info{
-      float: right;
-      height: 648px;
-      direction: rtl;
-      width: 300px;
-      flex-wrap:wrap ;
+@media screen and (max-width:700px){
+   
 
+}
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+@media screen and (max-width:360px){
+    .x-top{
+        z-index: 1 !important;
+        width:360px !important;
+        height: 80px;
+     background:rgb(255, 254, 254);
+     position: fixed !important;
+
+     top: 0px !important;
+    
+    }
+    #menuicon{
+        display: block !important;
+        
+        position: absolute;
+        right: 15px;
+        top: 25px;
+        font-size: 30px;
+    }
+    
+
+    #dropdown{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid rgb(71, 71, 133) ;
+        width: 360px !important;
+        background: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        z-index: 1 !important;
+        transition: 0.2s;
+        left: -400px;
+    }
+    #dropdown p{
+        line-height: 50px;
+        padding-left: 10px !important;
+        color: rgb(223, 218, 218);
+        border-bottom: 1px solid rgb(145, 141, 141);
+     
+    }
+  
+    .firstprof{
+        width: 360px;
       margin-left: 0px !important;
-      border-bottom:1px solid rgba(73, 73, 73, 0.5)  ;
-      margin: 25px;
-      margin-right: 60px !important;
-      display: flex;
-  }
-  .film-info img{
-      width: 220px;
-      height: 320px;
-      object-fit:cover;
-      margin:25px;
-      margin-top: 0px !important;
-      border-radius:4px ;
-      border: 1px solid silver;
-  }
-  .info-txt{
+        background:white !important;
+height: 620px !important;
+        padding-bottom: 20px;
+        margin-top: 80px !important;
+        margin-bottom: 130px !important;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .work{
+        width: 360px !important;
+        margin: auto;
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: white;
+        margin-bottom: 70px;
+      
+        margin-top: 25px !important;
+        flex-direction: column;
+       
+    }
+    
+    .ably{
+        width: 360px !important;
+        flex-direction: column;
+        padding-bottom: 40px !important;
+        background: #eee;
+        
+        margin-left: 0px !important;
 
-    flex-wrap: wrap;
- margin-bottom: 25px;
-    justify-content: space-around;
-      display: flex;
+        
+    }
+    .cards{
+        justify-content: space-around;display: flex;
+        flex-direction: column;width: 100%;
+    }
+    .titletxtpip p{
+        color:rgb(71, 71, 133);font-size: 35px; padding-top:20px;font-family: sans-serif;
+        
+    }
+    .myname{
+        font-family: freestyle script regular;
+        color: black;
+        font-size:40px !important;
+       margin-top: 17px !important;
+       margin-left: 10px;
+    }
+    #tagtop1{
+        font-family:sans-serif ;
+        color: black;
+        font-size:20px;
+        float: right;
+        padding-right: 35px;
+        height: 100%;
+        line-height: 80px;
+        margin-right: 10px;
+    }
+    #tagtop1:hover{
+        color:rgb(71, 71, 133) ;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .proimg{
+        
+        width: 360px !important;
+    }
+    .fir1{
+        font-size: 80px;margin-bottom: 10px;margin-left: 10px;font-family: sans-serif;color:rgb(71, 71, 133)
+    }
+    .fir2{
+        font-size: 30px;margin-bottom: 20px;margin-left: 10px;font-family: sans-serif;color:rgb(17, 17, 17) ;
+    }
+    .firsttxt{
+        margin-left: 0px !important;
+        margin-top: 0px !important ;
+        display: flex;
+        background:white;
+        width: 360px !important;
+        flex-direction: column;
+    }
+    .cvdiv{
+        display:flex;border-bottom:1px solid rgb(71, 71, 133);
+    }
+    .cvdiv p{
+        font-family: sans-serif;font-size: 40px;color:rgb(71, 71, 133);
+    margin-left: 10px;padding-bottom: 10px;
+    }
+    .card{
+        width: 250px;
+        height: 380px;
+        background: #f5f5f5;
+        margin: 40px;
+        margin-bottom: -20px !important;
+        border: 1px solid rgb(221, 219, 219);
+        border-radius: 7px;
+    }
+    .titcode{
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .titcode p{
+        color: black;
+        font-size:20px;
+        font-family: sans-serif;
+    }
+    .txtcode div p{
+    font-family: sans-serif;
+    color: rgb(49, 48, 48);
+    
+    }
+    .cvimg{
+      margin-left:30px !important ;
+        margin-top: 30px;
+    width:300px !important;
+    box-shadow: 1px 1px 5px 7px gray;
+    
+    }
+    .morecvbtn{
+        width: 200px;
+        height: 50px;
+        border: 2px solid rgb(71, 71, 133);
+        text-align: center;
+
+        margin-top: 20px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }
+    
+    
+    .morecvbtn:hover{
+        background:rgb(71, 71, 133);
+        cursor: pointer;
     
     }
     
-.mor-info:hover h5{
-    font-size: 14px;
-    transition: 0.2s;
+    .morecvbtn:hover p{
+        color: white;
+    }
     
-    cursor: pointer;
-}
-
-#closeinfo{
-    margin: 25px;
-    display: none;
-    color: white;
-    transition: 0.2s;
-    float: right;
-    font-size: 30px;
-
-}
-#closeinfo:hover{
-    color: cyan;
-    cursor: pointer;
-    transition: 0.2s;
-    border-radius: 10px;
-}
-#biginfo{
-    height: 90%;width: 80%;border: 1px solid cyan;background:rgba(0,0,0,0.6);
-position: absolute;margin: auto;top: 30px;left: 135px;display: none;
-}
-#mainvid{
-    width: 900px;
-  margin: auto;
-  height: 505px;
-  z-index: -1;
-}
-#vid-info{
-    height: 40px;
-  border-bottom:1px solid white ;
-    display: flex;
-    width: 80px;
-    border-radius:1px ;
-    margin-top: 20px !important;
-    margin-left: 70px;
-}
-#like-btn{
-    color: white;
-    font-size: 20px;
-    margin: 10px;
-    margin-left: 10px;
-}
-#like-btn:hover{
-    cursor: pointer;
-}
-#like-txt{
-    color: rgb(138, 136, 136);
-    margin: 10px;
-    margin-left:20px !important ;
-    font-size: 18px;
-}
-.download-box{
-    display: flex;
-    width:880px;
-    border-bottom:1px solid rgba(73, 73, 73, 0.5) ;
-   padding: 10px;
-    margin-left:40px ;
-}
-.download-box h3{
-    color: cyan;
-    font-family: samim fd-wol;
-    margin-left: 250px;
-    margin-top: 10px;
-}
-#download-box-p-1080{
-    height: 50px;
-    width: 50%;
-    margin-left: 10px;
-    text-align:center ;
-    border:1px solid cyan ;
-    border-radius: 3px;
-}
-#download-box-p-1080:hover{
-    background: cyan;
-    cursor: pointer;
-}
-#download-box-p-1080:hover p{
-    color: black !important;
-}
-#download-box-p-720{
-    height: 50px;
-    width: 50%;
-    margin-left: 10px;
-    text-align:center ;
-    border:1px solid cyan ;
-    border-radius: 3px;
-}
-#download-box-p-720:hover{
-    background: cyan;
-    cursor: pointer;
-}
-#download-box-p-720:hover p{
-    color: black !important;
-}
-#comentshow{
-    width: 1265px;
-    border: 1px solid rgba(73, 73, 73, 0.5);
-    display: flex;
-    margin-left: 40px !important;
-    margin: 15px;
-    transition: 0.2s;
-}
-#showcome{
-    width: 700px !important;
-  
-    height: 30px;
-padding-left: 600px;
-transition: 0.2s;
-padding-top:10px; 
-}
-#showcome:hover{
-    background:rgba(73, 73, 73, 0.5) ;
-    transition: 0.2s;
-}
-#comentshow h3{
-    font-family: sans-serif;
-    color: white;
-    transition: 0.2s;
-  
+    .morecvbtn p{
+        color:  black;
+        margin-top:13px ;
+        font-family: sans-serif;
+        font-size: 20px ;
+    }
     
-}
-
-#showcome:hover{
-    transition: 0.2s;
-    color: cyan;
-    cursor: pointer;
-}
-.main-recomend-div{
-    width: 97%;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 25px;
-}
-.cover-bot{
-    width: 200px;
-  height: 340px;
-    direction: rtl;
-    border-radius: 4px;
-overflow: hidden;
-transition: 0.2s;
-border-top: 1px solid transparent;
-margin: 7px;
-padding-bottom: 10px;
-}
-.cover-bot:hover{
-    background: rgb(41, 39, 39);
-    transition: 0.2s;
-    border-top: 1px solid cyan;
-}
-.cover-bot:hover p{
-    text-decoration: underline;
-    cursor: pointer;
-    color: rgb(131, 130, 130) !important;
-    transition: 0.2s;
-}
-.cover-bot a img{
-    transition: 0.2s;
-
-}
-.cover-bot:hover a img{
-transition: 0.2s;
-cursor: pointer;
-}
-#them-settings-top{
-    position: absolute;
-    right: 150px;
-    color: white;
-    font-size: 25px;
-    top: 25px;
-    transition: 0.1s;
-}
-#them-settings-top:hover{
-    color: cyan;
-    cursor: pointer;
-   
-    transition: 0.1s;
-}
-#mainsetting{
-    position: absolute;
-    width: 300px;
-    right: 130px;
-    height: 400px;
-    border: 1px solid rgba(73, 73, 73, 0.5);
-    background:rgb(17, 16, 16) ;
-    top: 82px;
-    display: none;
-}
-#showmore{
-        width: 700px !important;
-    height: 30px;
-padding-left: 600px;
-transition: 0.2s;
-padding-top:10px; ;
-
-border: 1px solid rgba(73, 73, 73, 0.5);
-margin-top: 25px;
-margin-bottom: 25px;
-}
-#showmore h3{
-    color: white;
-    margin-right: 600px;
+    .imagesslider{
+        display: flex;width:360px !important;
+    margin-left: 0px !important;background: white !important;padding:10px;padding-left: 0px; 
+      padding-right:0px ;
+    }
+    #arowout{
+        font-size: 30px;
+        color: black;
+        padding: 10px;
+        margin-top: 100px;
+    margin-left: 10px !important;
+        display: none;
+        width: 50px !important;
+        background: white;
+        box-shadow: 1px 1px 4px 5px gray;
+       
+    
+    
+    }
+    #arowout:hover{
+        background: rgb(71, 71, 133);
+        box-shadow: 1px 1px 4px 5px rgb(71, 71, 133);
+        color: white;
+        cursor: pointer;
+    }
+    #cvbox{
+        display: none;
+        margin: auto;
+        
+        margin:auto;
+        margin-top: 20px;
+    }
+    #cvbox img{
+        margin-left: 20px;
+    }
+}    
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+@media screen and (max-width:411px){
+    .x-top{
+        z-index: 1;
+        width:100%;
+        height: 80px;
+     background:rgb(255, 254, 254);
+     position: fixed;
+     top: 0px;
+    }
+    #menuicon{
+        display: none;
+    }
+    .firstprof{
+        width: 97%;
+        margin: auto;
+        height: 400px;
+        background:white;
+        border-radius:4px;
+        margin-top: 100px;
+        display: flex;
+    }
+    
+    .work{
+        width: 97%;
+        margin: auto;
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: white;
+        margin-bottom: 70px;
+        border-radius:4px;
+        margin-top: 70px;
+        flex-direction: column;
+       
+    }
+    
+    .ably{
+        width: 500px;
+        flex-direction: column;
+        padding-bottom: 20px;
+        background: #eee;
+        border-radius:4px;
+margin-left: 6%;
+        margin-top: 70px; 
+    }
+    .cards{
+        justify-content: space-around;display: flex;
+        flex-direction: column;width: 100%;
+    }
+    .myname{
+        font-family: freestyle script regular;
+        color: black;
+        font-size:40px;
+        margin: 10px;
+    }
+    #tagtop1{
+        font-family:sans-serif ;
+        color: black;
+        font-size:20px;
+        float: right;
+        padding-right: 35px;
+        height: 100%;
+        line-height: 80px;
+        margin-right: 10px;
+    }
+    #tagtop1:hover{
+        color:rgb(71, 71, 133) ;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .proimg{
+        height:400px;
+        width: 400px;
+    }
+    .fir1{
+        font-size: 80px;font-family: sans-serif;color:rgb(71, 71, 133)
+    }
+    .fir2{
+        font-size: 30px;font-family: sans-serif;color:rgb(17, 17, 17) ;
+    }
+    .firsttxt{
+        margin-left: 200px;
+        margin-top: 80px;
+    }
+    .card{
+        width: 250px;
+        height: 380px;
+        background: #f5f5f5;
+        margin: 40px;
+        border: 1px solid rgb(221, 219, 219);
+        border-radius: 7px;
+    }
+    .titcode{
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .titcode p{
+        color: black;
+        font-size:20px;
+        font-family: sans-serif;
+    }
+    .txtcode div p{
     font-family: sans-serif;
+    color: rgb(49, 48, 48);
+    
+    }
+    .cvimg{
+      margin-left:20px ;
+        margin-top: 30px;
+    width:200px;
+    box-shadow: 1px 1px 5px 7px gray;
+    
+    }
+    .morecvbtn{
+        width: 200px;
+        height: 50px;
+        border: 2px solid rgb(71, 71, 133);
+        text-align: center;
+     margin-left: 630px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }
+    
+    
+    .morecvbtn:hover{
+        background:rgb(71, 71, 133);
+        cursor: pointer;
+    
+    }
+    
+    .morecvbtn:hover p{
+        color: white;
+    }
+    
+    .morecvbtn p{
+        color:  black;
+        margin-top:13px ;
+        font-family: sans-serif;
+        font-size: 20px ;
+    }
+    
+    .imagesslider{
+        display: flex;width:430px;
+     margin-left: 35%;background: white;padding:10px;padding-left: 0px; 
+      padding-right:0px ;
+    }
+    #arowout{
+        font-size: 30px;
+        color: black;
+        padding: 10px;
+        margin-top: 100px;
+    margin-left: 10px !important;
+        display: none;
+        width: 50px !important;
+        background: white;
+        box-shadow: 1px 1px 4px 5px gray;
+       
+    
+    
+    }
+    #arowout:hover{
+        background: rgb(71, 71, 133);
+        box-shadow: 1px 1px 4px 5px rgb(71, 71, 133);
+        color: white;
+        cursor: pointer;
+    }
+    #cvbox{
+        display: none;
+        margin: auto;
+        
+        margin:auto;
+        margin-top: 20px;
+    }
+    #cvbox img{
+        margin-left: 20px;
+    }
 }
-#showmore:hover{
-    cursor: pointer;
-    background: rgba(73, 73, 73, 0.5);
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+@media screen and (max-width:320px){
+    .x-top{
+        z-index: 1;
+        width:100%;
+        height: 80px;
+     background:rgb(255, 254, 254);
+     position: fixed;
+     top: 0px;
+    }
+    #menuicon{
+        display: none;
+    }
+    .firstprof{
+        width: 97%;
+        margin: auto;
+        height: 400px;
+        background:white;
+        border-radius:4px;
+        margin-top: 100px;
+        display: flex;
+    }
+    
+    .work{
+        width: 97%;
+        margin: auto;
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: white;
+        margin-bottom: 70px;
+        border-radius:4px;
+        margin-top: 70px;
+        flex-direction: column;
+       
+    }
+    
+    .ably{
+        width: 500px;
+        flex-direction: column;
+        padding-bottom: 20px;
+        background: #eee;
+        border-radius:4px;
+margin-left: 6%;
+        margin-top: 70px; 
+    }
+    .cards{
+        justify-content: space-around;display: flex;
+        flex-direction: column;width: 100%;
+    }
+    .myname{
+        font-family: freestyle script regular;
+        color: black;
+        font-size:40px;
+        margin: 10px;
+    }
+    #tagtop1{
+        font-family:sans-serif ;
+        color: black;
+        font-size:20px;
+        float: right;
+        padding-right: 35px;
+        height: 100%;
+        line-height: 80px;
+        margin-right: 10px;
+    }
+    #tagtop1:hover{
+        color:rgb(71, 71, 133) ;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .proimg{
+        height:400px;
+        width: 400px;
+    }
+    .fir1{
+        font-size: 80px;font-family: sans-serif;color:rgb(71, 71, 133)
+    }
+    .fir2{
+        font-size: 30px;font-family: sans-serif;color:rgb(17, 17, 17) ;
+    }
+    .firsttxt{
+        margin-left: 200px;
+        margin-top: 80px;
+    }
+    .card{
+        width: 250px;
+        height: 380px;
+        background: #f5f5f5;
+        margin: 40px;
+        border: 1px solid rgb(221, 219, 219);
+        border-radius: 7px;
+    }
+    .titcode{
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .titcode p{
+        color: black;
+        font-size:20px;
+        font-family: sans-serif;
+    }
+    .txtcode div p{
+    font-family: sans-serif;
+    color: rgb(49, 48, 48);
+    
+    }
+    .cvimg{
+      margin-left:20px ;
+        margin-top: 30px;
+    width:200px;
+    box-shadow: 1px 1px 5px 7px gray;
+    
+    }
+    .morecvbtn{
+        width: 200px;
+        height: 50px;
+        border: 2px solid rgb(71, 71, 133);
+        text-align: center;
+     margin-left: 630px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }
+    
+    
+    .morecvbtn:hover{
+        background:rgb(71, 71, 133);
+        cursor: pointer;
+    
+    }
+    
+    .morecvbtn:hover p{
+        color: white;
+    }
+    
+    .morecvbtn p{
+        color:  black;
+        margin-top:13px ;
+        font-family: sans-serif;
+        font-size: 20px ;
+    }
+    
+    .imagesslider{
+        display: flex;width:430px;
+     margin-left: 35%;background: white;padding:10px;padding-left: 0px; 
+      padding-right:0px ;
+    }
+    #arowout{
+        font-size: 30px;
+        color: black;
+        padding: 10px;
+        margin-top: 100px;
+    margin-left: 10px !important;
+        display: none;
+        width: 50px !important;
+        background: white;
+        box-shadow: 1px 1px 4px 5px gray;
+       
+    
+    
+    }
+    #arowout:hover{
+        background: rgb(71, 71, 133);
+        box-shadow: 1px 1px 4px 5px rgb(71, 71, 133);
+        color: white;
+        cursor: pointer;
+    }
+    #cvbox{
+        display: none;
+        margin: auto;
+        
+        margin:auto;
+        margin-top: 20px;
+    }
+    #cvbox img{
+        margin-left: 20px;
+    }
 }
-#showmore:hover h3{
-    color: cyan;
-}
-#controler{
-    width: 898px;
-    height: 60px;
-background: rgba(0, 0, 0, 0.5);
-top: 980px;
-margin-left: 1px;
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+@media screen and (max-width:375px){
+    .x-top{
+        z-index: 1;
+        width:100%;
+        height: 80px;
+     background:rgb(255, 254, 254);
+     position: fixed;
+     top: 0px;
+    }
+    #menuicon{
+        display: none;
+    }
+    .firstprof{
+        width: 97%;
+        margin: auto;
+        height: 400px;
+        background:white;
+        border-radius:4px;
+        margin-top: 100px;
+        display: flex;
+    }
+    
+    .work{
+        width: 97%;
+        margin: auto;
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: white;
+        margin-bottom: 70px;
+        border-radius:4px;
+        margin-top: 70px;
+        flex-direction: column;
+       
+    }
+    
+    .ably{
+        width: 500px;
+        flex-direction: column;
+        padding-bottom: 20px;
+        background: #eee;
+        border-radius:4px;
+margin-left: 6%;
+        margin-top: 70px; 
+    }
+    .cards{
+        justify-content: space-around;display: flex;
+        flex-direction: column;width: 100%;
+    }
+    .myname{
+        font-family: freestyle script regular;
+        color: black;
+        font-size:40px;
+        margin: 10px;
+    }
+    #tagtop1{
+        font-family:sans-serif ;
+        color: black;
+        font-size:20px;
+        float: right;
+        padding-right: 35px;
+        height: 100%;
+        line-height: 80px;
+        margin-right: 10px;
+    }
+    #tagtop1:hover{
+        color:rgb(71, 71, 133) ;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .proimg{
+        height:400px;
+        width: 400px;
+    }
+    .fir1{
+        font-size: 80px;font-family: sans-serif;color:rgb(71, 71, 133)
+    }
+    .fir2{
+        font-size: 30px;font-family: sans-serif;color:rgb(17, 17, 17) ;
+    }
+    .firsttxt{
+        margin-left: 200px;
+        margin-top: 80px;
+    }
+    .card{
+        width: 250px;
+        height: 380px;
+        background: #f5f5f5;
+        margin: 40px;
+        border: 1px solid rgb(221, 219, 219);
+        border-radius: 7px;
+    }
+    .titcode{
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .titcode p{
+        color: black;
+        font-size:20px;
+        font-family: sans-serif;
+    }
+    .txtcode div p{
+    font-family: sans-serif;
+    color: rgb(49, 48, 48);
+    
+    }
+    .cvimg{
+      margin-left:20px ;
+        margin-top: 30px;
+    width:200px;
+    box-shadow: 1px 1px 5px 7px gray;
+    
+    }
+    .morecvbtn{
+        width: 200px;
+        height: 50px;
+        border: 2px solid rgb(71, 71, 133);
+        text-align: center;
+     margin-left: 630px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }
+    
+    
+    .morecvbtn:hover{
+        background:rgb(71, 71, 133);
+        cursor: pointer;
+    
+    }
+    
+    .morecvbtn:hover p{
+        color: white;
+    }
+    
+    .morecvbtn p{
+        color:  black;
+        margin-top:13px ;
+        font-family: sans-serif;
+        font-size: 20px ;
+    }
+    
+    .imagesslider{
+        display: flex;width:430px;
+     margin-left: 35%;background: white;padding:10px;padding-left: 0px; 
+      padding-right:0px ;
+    }
+    #arowout{
+        font-size: 30px;
+        color: black;
+        padding: 10px;
+        margin-top: 100px;
+    margin-left: 10px !important;
+        display: none;
+        width: 50px !important;
+        background: white;
+        box-shadow: 1px 1px 4px 5px gray;
+       
+    
+    
+    }
+    #arowout:hover{
+        background: rgb(71, 71, 133);
+        box-shadow: 1px 1px 4px 5px rgb(71, 71, 133);
+        color: white;
+        cursor: pointer;
+    }
+    #cvbox{
+        display: none;
+        margin: auto;
+        
+        margin:auto;
+        margin-top: 20px;
+    }
+    #cvbox img{
+        margin-left: 20px;
+    }
 
-position: absolute;
 }
-#playbtn{
-    color: white;
-    margin: 20px;
-
-    margin-left:30px !important ;
-    font-size: 20px;
-    z-index: 1; 
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+/*phone divices*//*phone divices*//*phone divices*/
+@media screen and (max-width:414px){
+    .x-top{
+        z-index: 1;
+        width:100%;
+        height: 80px;
+     background:rgb(255, 254, 254);
+     position: fixed;
+     top: 0px;
+    }
+    #menuicon{
+        display: none;
+    }
+    .firstprof{
+        width: 97%;
+        margin: auto;
+        height: 400px;
+        background:white;
+        border-radius:4px;
+        margin-top: 100px;
+        display: flex;
+    }
+    
+    .work{
+        width: 97%;
+        margin: auto;
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: white;
+        margin-bottom: 70px;
+        border-radius:4px;
+        margin-top: 70px;
+        flex-direction: column;
+       
+    }
+    
+    .ably{
+        width: 500px;
+        flex-direction: column;
+        padding-bottom: 20px;
+        background: #eee;
+        border-radius:4px;
+margin-left: 6%;
+        margin-top: 70px; 
+    }
+    .cards{
+        justify-content: space-around;display: flex;
+        flex-direction: column;width: 100%;
+    }
+    .myname{
+        font-family: freestyle script regular;
+        color: black;
+        font-size:40px;
+        margin: 10px;
+    }
+    #tagtop1{
+        font-family:sans-serif ;
+        color: black;
+        font-size:20px;
+        float: right;
+        padding-right: 35px;
+        height: 100%;
+        line-height: 80px;
+        margin-right: 10px;
+    }
+    #tagtop1:hover{
+        color:rgb(71, 71, 133) ;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .proimg{
+        height:400px;
+        width: 400px;
+    }
+    .fir1{
+        font-size: 80px;font-family: sans-serif;color:rgb(71, 71, 133)
+    }
+    .fir2{
+        font-size: 30px;font-family: sans-serif;color:rgb(17, 17, 17) ;
+    }
+    .firsttxt{
+        margin-left: 200px;
+        margin-top: 80px;
+    }
+    .card{
+        width: 250px;
+        height: 380px;
+        background: #f5f5f5;
+        margin: 40px;
+        border: 1px solid rgb(221, 219, 219);
+        border-radius: 7px;
+    }
+    .titcode{
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .titcode p{
+        color: black;
+        font-size:20px;
+        font-family: sans-serif;
+    }
+    .txtcode div p{
+    font-family: sans-serif;
+    color: rgb(49, 48, 48);
+    
+    }
+    .cvimg{
+      margin-left:20px ;
+        margin-top: 30px;
+    width:200px;
+    box-shadow: 1px 1px 5px 7px gray;
+    
+    }
+    .morecvbtn{
+        width: 200px;
+        height: 50px;
+        border: 2px solid rgb(71, 71, 133);
+        text-align: center;
+     margin-left: 630px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }
+    
+    
+    .morecvbtn:hover{
+        background:rgb(71, 71, 133);
+        cursor: pointer;
+    
+    }
+    
+    .morecvbtn:hover p{
+        color: white;
+    }
+    
+    .morecvbtn p{
+        color:  black;
+        margin-top:13px ;
+        font-family: sans-serif;
+        font-size: 20px ;
+    }
+    
+    .imagesslider{
+        display: flex;width:430px;
+     margin-left: 35%;background: white;padding:10px;padding-left: 0px; 
+      padding-right:0px ;
+    }
+    #arowout{
+        font-size: 30px;
+        color: black;
+        padding: 10px;
+        margin-top: 100px;
+    margin-left: 10px !important;
+        display: none;
+        width: 50px !important;
+        background: white;
+        box-shadow: 1px 1px 4px 5px gray;
+       
+    
+    
+    }
+    #arowout:hover{
+        background: rgb(71, 71, 133);
+        box-shadow: 1px 1px 4px 5px rgb(71, 71, 133);
+        color: white;
+        cursor: pointer;
+    }
+    #cvbox{
+        display: none;
+        margin: auto;
+        
+        margin:auto;
+        margin-top: 20px;
+    }
+    #cvbox img{
+        margin-left: 20px;
+    }
 }
-#playbtn:hover{
-    color: cyan;
-    cursor: pointer;
-}
-#morefilms{
-    display: flex;
-    width: 99%;
-    display: none;
-    flex-wrap: wrap;
-}
-}
-.parter{
-    width: 140px;
-    height: 40px;
-    border: 1px solid rgba(73, 73, 73, 0.5);
-    border-radius:2px ;
-    float: right;
-    position: absolute;
-    right: 300px;
-    display: flex;
-box-shadow: inset 1px 1px 9px 1px rgba(73, 73, 73, 0.2);
-    top: 20px;
-}
-.parter:hover{
-    background: rgba(73, 73, 73, 0.5);
-    cursor: pointer;
-}
-.parter span{
-    font-size:20px ;
-    color: white;
-    position: absolute;
-    left: 10px;
-    top: 7px;
-}
-.parter h3{
-color: white;
-position: relative;
-left: 50px;
-margin-top: 8px;
-font-family: samim fd-wol;
-font-size:15px ;
-}
-#catogo{
-    width: 1400px;
-    z-index: 1;
-background: rgb(7, 7, 7);
-    height: 350px;
-    top: -300px;
-transition: 0.2s;
-position: fixed; 
-}
-.glass{
- position: absolute;
-    margin-bottom: 57px;
-    height: 3px;
-    width: 100%;
-    background: red;
-}
-
