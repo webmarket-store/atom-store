@@ -1,337 +1,138 @@
 <html>
-<head>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <meta charset="UTF-8">
+    <head>
+<title>my profile website</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>document</title>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
     
+    <body style="  background-image: url('https://images.pond5.com/animated-blinking-white-bricks-background-footage-055629588_iconl.jpeg');">
+<div class="x-top">
+    <div class="nameanddrop">
+    <p class="myname" > Shafiq Ahmad Jamshidy </p>
+<span class="fas fa-ellipsis-v" id="menuicon" onclick="dropmenudown()"></span>
+</div>
+
+<div id="dropdown">
+    <p id="tagtop1">home</p>
+    <p id="tagtop1">about me</p>
+    <p id="tagtop1" style="border-bottom: none;">contact to me</p>
+</div>
+
+
+</div>
+
+<span class="fas fa-arrow-left" onclick="outcv()" id="arowout"></span>
+<div id="cvbox">
+    <img class="cvimg" src="https://i.ibb.co/nLz6hWW/cv1.png">
+    <img class="cvimg" src="https://i.ibb.co/V94sKZq/cv2.png">
+    <img class="cvimg" src="https://i.ibb.co/zHWFMqh/cv3.png"> 
+    <img class="cvimg" src="https://i.ibb.co/rpqz3kW/cv4.png">
+    <img class="cvimg" src="https://i.ibb.co/4sdb3d0/cv5.png">
+    <img class="cvimg" src="https://i.ibb.co/Z1v0YvK/cv6.png">
+    <img class="cvimg" src="https://i.ibb.co/K2JBT6S/cv7.png">
+    <img class="cvimg" src="https://i.ibb.co/0spN1W4/cv8.png">
+    <img class="cvimg" src="https://i.ibb.co/Df0JVgP/cv9.png">
+    <img class="cvimg" src=" https://i.ibb.co/W69CShr/cv10.png"
+     style="margin-bottom: 30px;">
+</div>
+<div id="allcv">
+
   
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body style="background: rgb(25, 25, 25);"id="body">
-    <span class="fas fa-times"  id="closeinfo"onclick="hideinfo()"></span>
-    <div id="biginfo"></div>
+<div class="firstprof">
+<img class="proimg" src="https://us.123rf.com/450wm/mialima/mialima1603/mialima160300025/55096766-stock-vector-male-user-icon-isolated-on-a-white-background-account-avatar-for-web-user-profile-picture-unknown-ma.jpg?ver=6">
+<div class="firsttxt">
+<p class="fir1" >
+    helo
+</p>
+<br>
+<p  class="fir2"  >
+    my name Is Shafiq Ahmad Jamshidy<br> i am 
+    a software engineering <br>and also i am working at worldvision too
+</p>
 </div>
-<div id="bigcont">
-    <div id="catogo">
-
+</div>
+<div class="ably">
+<div class="titletxtpip" style="text-align: center;">
+    <p >
+        Development Pipeline
+    </p>
+</div>
+<div class="cards" >
+    <div class="card">
+        <img style="margin-left:60px;margin-top: 10px;" src="https://haidari.co/wp-content/uploads/2018/08/code.png">
+        <div class="titcode">
+            <p>Code</p>
+            
+        </div>
+        <div class="txtcode">
+            <div style="margin-left: 10px;margin-top: 20px;">
+    <p>
+        I design web pages with HTML5, CSS3 and JavaScript. I adore coding from scratch, I love front-end libraries such as (#Bootstrap).
+    </p>
+</div>
+        </div>
     </div>
-<div class="top-menu">
-    
-    <span class="fas fa-bars" id="menu-icon" onclick="show()"></span> 
-
-    <span class="fas fa-cog" id="them-settings-top" onclick="setseting()"></span>
-    <div id="mainsetting">
-
+    <div class="card">
+        <img style="margin-left:60px;margin-top: 10px;" src="https://haidari.co/wp-content/uploads/2018/08/architecture.png">
+        <div class="titcode">
+            <p>Architecture</p>
+        </div>
+        <div class="txtcode">
+    <div style="margin-left: 10px;margin-top: 20px;">
+        <p>
+            I write architecture for each small or big project, break down every single tasks and providing enough information for each part.
+        </p>
     </div>
-    <div class="sgin-in"><p>sgin-in</p></div>
- 
-<div class="parter"  onclick="catoshow()">
-    <h3>
-        دسته بندی ها
-    </h3>
-    <span id="catoclick" class="fas fa-sort-down"></span>
-</div>
-
-
-<form method="get" action="http://www.google.com/search">
-    <input id="search-box" type="text" name="q" size="25" maxlength="255" value="" 
-    placeholder="write the name of film" style="font-family: Arial, Helvetica, sans-serif;">
-    <input type="hidden" name="sitesearch" value="https://webmarket-store.github.io/atom-store/">
-    <button id="button"><span class="fas fa-search"></span></button>
-    </form>
-</div>
-<div id="sidebar">
-    <div class="header">
-        <span style="margin-left: 15px !important;" class="fas fa-bars" id="close-icon" onclick="show()"></span>
+        </div>
     </div>
-<nav>
-    <ul>
-        <li><a href="#">home</a></li>
-        <li><a href="#">order a film</a></li>
-        <li><a href="#">actor's history</a></li>
-        <li style="border-bottom:1px solid rgb(41, 40, 40);"><a href="#">contact us</a></li>
-       <li><a href="#">best of 2020</a></li>
-       <li><a href="#">best of Bollywood</a></li>
-       <li><a href="#">best of Hollywood</a></li>
-       <li style="border-bottom:1px solid rgb(41, 40, 40);"><a href="#">chose film According to actor</a></li>
-    </ul>
-</nav>
-</div>
-
-<img class="back-img-top" src="file:///C:/Users/pedram1/Desktop/url/iron-man-2.jpg"
->
-
-<div class="movie-slider">
-<div class="best-dev" >
-    <h2 class="best-in-this-genre">best in this genre</h2>
-</div>
-<div class="main-cover">
-   
-    <div class="cover-1">
-  
-        <a id="film-a">
-       
-             <img src="file:///C:/Users/pedram1/Desktop/url/iron-man-fixed.png"> </a>
+    <div class="card">
+        <img style="margin-left:60px;margin-top: 10px;" src="https://haidari.co/wp-content/uploads/2018/08/tactic.png">
+        <div class="titcode">
+            <p>Tactic</p>
+        </div>
+        <div class="txtcode">
+            <div style="margin-left: 10px;margin-top: 20px;">
+                <p>
+                    I work together with customers and peers to support and change thoughts into well thoroughly considered plan specs.
+                </p>
+            </div>
+        </div>
     </div>
-    <div class="cover-1">
-        <a><img src="file:///C:/Users/pedram1/Desktop/url/hulk-fixed.png"></a>
-     
-    </div>
-    <div class="cover-1">
-        <a><img src="file:///C:/Users/pedram1/Desktop/url/thor-ragnarok-fixed.png"></a>
-  
-    </div>
-    <div class="cover-1">
-        <a><img src="file:///C:/Users/pedram1/Desktop/url/kaptan-fixed.png"></a>
-</div>
-<div class="cover-1">
-    <a><img src="file:///C:/Users/pedram1/Desktop/url/spider-fixed.png"></a>
-</div>
-<div class="cover-1">
-    <a><img src="file:///C:/Users/pedram1/Desktop/url/hulk-fixed.png"></a>
 </div>
 
 
 
 </div>
+<div class="work">
+    <div class="cvdiv" >
 
     
-</div>
-
-<div class="film-info">
-   
-    <img src="file:///C:/Users/pedram1/Desktop/url/iron-man-2.jpg">
-
-<div class="info-txt">
-    <div style="display: flex;width: 100%;">
-<p style="color: white;font-family:samim fd-wol ;font-size: 15px;margin-right:20px ;">
-    اسم فیلم: <p style="color:white;font-family: sans-serif;font-size: 15px;margin: 5px;">iron man 2</p>
+<p >
+    my cv
 </p>
 </div>
-<div style="display: flex;width: 100%;">
-<p style="color: white;font-family:samim fd-wol ;font-size: 15px;margin-right:20px ;">
-    محصول کشور: <p style="color:white;font-family: samim fd-wol;font-size: 15px;margin: 5px;">امریکا</p>
-</p>
-</div>
-<div style="display: flex;width: 100%;">
-<p style="color: white;font-family:samim fd-wol ;font-size: 15px;margin-right:20px;">
-    سال انتشار: <p style="color:white;font-family: samim fd-wol;font-size: 15px;margin: 5px;">۲۰۱۷</p>
-</p>
-</div>
-<div style="display: flex;width: 100%;">
-<p style="color: white;font-family:samim fd-wol ;font-size: 15px;margin-right:20px;">
-    زمان فیلم: <p style="color:white;font-family: samim fd-wol;font-size: 15px;margin: 5px;">یک ساعت و ۴۵ دقیقه</p>
-</p>
-</div>
-<div style="display: flex;width: 100%;">
-<p style="color: white;font-family:samim fd-wol ;font-size: 15px;margin-right:20px ;">
-    زبان: <p style="color:white;font-family: samim fd-wol;font-size: 15px;margin: 5px;">دوبله فارسی</p>
-</p>
-</div>
-<div style="display: flex;width: 100%;">
-<p style="color: white;font-family:samim fd-wol ;font-size: 15px;margin-right:20px ;">
-    کارگردان: <p style="color:white;font-family: sans-serif;font-size: 15px;margin: 5px;">jorge machom</p>
-</p>
-</div>
-<div style="display: flex;width: 100%;">
-<p style="color: white;font-family:samim fd-wol ;font-size: 15px;margin-right:20px ;">
-    بازیگران برجسته: <p style="color:white;font-family: sans-serif;font-size: 15px;margin: 5px;">tony stark,lambo dambe</p>
-</p>
-</div>
-<div style="display: flex;width: 100%;">
-<p style="color: white;font-family:samim fd-wol ;font-size: 15px;margin-right:20px ;">
-    امتیاز دیگران: <p style="color:white;font-family: samim fd-wol;font-size: 15px;margin: 5px;">۷.۹</p>
-</p>
-</div>
-<a style="text-decoration: none;"class="mor-info"
->
-<h5 style="color: cyan;font-family:samim fd-wol;transition: 0.2s;margin-top: 20px;"
-onclick="morstory()">
-    برای اطلاعات بیشتر درباره فیلم در اینجا کلیک کنید</h5></a>
-</div>
-
-</div>
-
-<div class="main-wid-box">
-<video id="mainvid"  poster="file:///C:/Users/pedram1/Desktop/url/iron-man-2.jpg">
-    <source  src="file:///C:/Users/pedram1/Desktop/url/vid.mkv" type="video/mp4">
-        
-</video>
-<div id="controler">
-    <div class="glass">
-<div class="tea">
-
-</div>
-    </div>
-    <span class="fas fa-play" id="playbtn" onclick="playvid()"></span>
-</div>
-
-    <div style="display: flex;width: 100%;">
-<div id="vid-info">
-    <span id="like-btn" class="fas fa-thumbs-up" onclick="likerise()"></span>
-    <p id="like-txt" >0</p>
+<div class="imagesslider" >
     
-</div>
-<h3 style="color: white;font-family: samim fd-wol;
-margin-top:20px !important;margin:20px;margin-left: 490px;">دوبله فارسی فیلم مرد اهنی ۲</h3>
-</div>
-</div>
-<div class="download-box">
-
-<div id="download-box-p-1080">
-<p style="color: white;font-family: samim fd-wol;margin-top: 10px;">دانلود با کیفیت ۱۰۸۰</p>
-</div>
-<div id="download-box-p-720">
-<p style="color: white;font-family: samim fd-wol;margin-top: 10px;">دانلود با کیفیت ۷۲۰</p>
-</div>
+<img class="cvimg" src="https://i.ibb.co/nLz6hWW/cv1.png">
 
 </div>
-<div id="comentshow">
-    <h3 id="showcome" onclick="comeshow()">show comments</h3>
-</div>
+<div style="width: 100%;display: flex;">
+<div class="morecvbtn" onclick="morecv()">
+<p class="morecvtxt">
 
-<h2 style="color: cyan;font-family: sans-serif;margin-left: 50px !important;
-margin: 10px;margin-top: 20px !important;">recomended</h2>
-<div class="main-recomend-div">
-<div class="cover-bot">
-    <a><img src="file:///C:/Users/pedram1/Desktop/url/hulk-fixed.png"
-        style="object-fit: cover;width: 200px !important;height: 300px; 
-       border-radius:2px;margin-bottom: 5px;">
-<p style="color: white;font-family: samim fd-wol;font-size: 12px;
-margin-right: 5px;">دوبله فارسی فیلم هالک ژانر اکشن محصول سال ۲۰۱۷</p></a>
-</div>
-<div class="cover-bot">
-    <a><img src="file:///C:/Users/pedram1/Desktop/url/hulk-fixed.png"
-        style="object-fit: cover;width: 200px !important;height: 300px; 
-       border-radius:2px;margin-bottom: 5px;">
-<p style="color: white;font-family: samim fd-wol;font-size: 12px;
-margin-right: 5px;">دوبله فارسی فیلم هالک ژانر اکشن محصول سال ۲۰۱۷</p></a>
-</div>
-<div class="cover-bot">
-    <a><img src="file:///C:/Users/pedram1/Desktop/url/hulk-fixed.png"
-        style="object-fit: cover;width: 200px !important;height: 300px; 
-       border-radius:2px;margin-bottom: 5px;">
-<p style="color: white;font-family: samim fd-wol;font-size: 12px;
-margin-right: 5px;">دوبله فارسی فیلم هالک ژانر اکشن محصول سال ۲۰۱۷</p></a>
-</div>
-<div class="cover-bot">
-    <a><img src="file:///C:/Users/pedram1/Desktop/url/hulk-fixed.png"
-        style="object-fit: cover;width: 200px !important;height: 300px; 
-       border-radius:2px;margin-bottom: 5px;">
-<p style="color: white;font-family: samim fd-wol;font-size: 12px;
-margin-right: 5px;">دوبله فارسی فیلم هالک ژانر اکشن محصول سال ۲۰۱۷</p></a>
-</div>
-<div class="cover-bot">
-    <a><img src="file:///C:/Users/pedram1/Desktop/url/hulk-fixed.png"
-        style="object-fit: cover;width: 200px !important;height: 300px; 
-       border-radius:2px;margin-bottom: 5px;">
-<p style="color: white;font-family: samim fd-wol;font-size: 12px;
-margin-right: 5px;">دوبله فارسی فیلم هالک ژانر اکشن محصول سال ۲۰۱۷</p></a>
-</div>
-<div class="cover-bot">
-    <a><img src="file:///C:/Users/pedram1/Desktop/url/hulk-fixed.png"
-        style="object-fit: cover;width: 200px !important;height: 300px; 
-       border-radius:2px;margin-bottom: 5px;">
-<p style="color: white;font-family: samim fd-wol;font-size: 12px;
-margin-right: 5px;">دوبله فارسی فیلم هالک ژانر اکشن محصول سال ۲۰۱۷</p></a>
-</div>
-<div class="cover-bot">
-    <a><img src="file:///C:/Users/pedram1/Desktop/url/hulk-fixed.png"
-        style="object-fit: cover;width: 200px !important;height: 300px; 
-       border-radius:2px;margin-bottom: 5px;">
-<p style="color: white;font-family: samim fd-wol;font-size: 12px;
-margin-right: 5px;">دوبله فارسی فیلم هالک ژانر اکشن محصول سال ۲۰۱۷</p></a>
-</div>
-<div class="cover-bot">
-    <a><img src="file:///C:/Users/pedram1/Desktop/url/hulk-fixed.png"
-        style="object-fit: cover;width: 200px !important;height: 300px; 
-       border-radius:2px;margin-bottom: 5px;">
-<p style="color: white;font-family: samim fd-wol;font-size: 12px;
-margin-right: 5px;">دوبله فارسی فیلم هالک ژانر اکشن محصول سال ۲۰۱۷</p></a>
-</div>
-<div class="cover-bot">
-    <a><img src="file:///C:/Users/pedram1/Desktop/url/hulk-fixed.png"
-        style="object-fit: cover;width: 200px !important;height: 300px; 
-       border-radius:2px;margin-bottom: 5px;">
-<p style="color: white;font-family: samim fd-wol;font-size: 12px;
-margin-right: 5px;">دوبله فارسی فیلم هالک ژانر اکشن محصول سال ۲۰۱۷</p></a>
-</div>
-<div class="cover-bot">
-    <a><img src="file:///C:/Users/pedram1/Desktop/url/hulk-fixed.png"
-        style="object-fit: cover;width: 200px !important;height: 300px; 
-       border-radius:2px;margin-bottom: 5px;">
-<p style="color: white;font-family: samim fd-wol;font-size: 12px;
-margin-right: 5px;">دوبله فارسی فیلم هالک ژانر اکشن محصول سال ۲۰۱۷</p></a>
-</div>
-<div class="cover-bot">
-    <a><img src="file:///C:/Users/pedram1/Desktop/url/hulk-fixed.png"
-        style="object-fit: cover;width: 200px !important;height: 300px; 
-       border-radius:2px;margin-bottom: 5px;">
-<p style="color: white;font-family: samim fd-wol;font-size: 12px;
-margin-right: 5px;">دوبله فارسی فیلم هالک ژانر اکشن محصول سال ۲۰۱۷</p></a>
-</div>
-<div class="cover-bot">
-    <a><img src="file:///C:/Users/pedram1/Desktop/url/hulk-fixed.png"
-        style="object-fit: cover;width: 200px !important;height: 300px; 
-       border-radius:2px;margin-bottom: 5px;">
-<p style="color: white;font-family: samim fd-wol;font-size: 12px;
-margin-right: 5px;">دوبله فارسی فیلم هالک ژانر اکشن محصول سال ۲۰۱۷</p></a>
-</div>
-<div class="cover-bot">
-    <a><img src="file:///C:/Users/pedram1/Desktop/url/hulk-fixed.png"
-        style="object-fit: cover;width: 200px !important;height: 300px; 
-       border-radius:2px;margin-bottom: 5px;">
-<p style="color: white;font-family: samim fd-wol;font-size: 12px;
-margin-right: 5px;">دوبله فارسی فیلم هالک ژانر اکشن محصول سال ۲۰۱۷</p></a>
-</div>
-<div class="cover-bot">
-    <a><img src="file:///C:/Users/pedram1/Desktop/url/hulk-fixed.png"
-        style="object-fit: cover;width: 200px !important;height: 300px; 
-       border-radius:2px;margin-bottom: 5px;">
-<p style="color: white;font-family: samim fd-wol;font-size: 12px;
-margin-right: 5px;">دوبله فارسی فیلم هالک ژانر اکشن محصول سال ۲۰۱۷</p></a>
-</div>
-<div class="cover-bot">
-    <a><img src="file:///C:/Users/pedram1/Desktop/url/hulk-fixed.png"
-        style="object-fit: cover;width: 200px !important;height: 300px; 
-       border-radius:2px;margin-bottom: 5px;">
-<p style="color: white;font-family: samim fd-wol;font-size: 12px;
-margin-right: 5px;">دوبله فارسی فیلم هالک ژانر اکشن محصول سال ۲۰۱۷</p></a>
-</div>
-<div class="cover-bot">
-    <a><img src="file:///C:/Users/pedram1/Desktop/url/hulk-fixed.png"
-        style="object-fit: cover;width: 200px !important;height: 300px; 
-       border-radius:2px;margin-bottom: 5px;">
-<p style="color: white;font-family: samim fd-wol;font-size: 12px;
-margin-right: 5px;">دوبله فارسی فیلم هالک ژانر اکشن محصول سال ۲۰۱۷</p></a>
-</div>
-<div class="cover-bot">
-    <a><img src="file:///C:/Users/pedram1/Desktop/url/hulk-fixed.png"
-        style="object-fit: cover;width: 200px !important;height: 300px; 
-       border-radius:2px;margin-bottom: 5px;">
-<p style="color: white;font-family: samim fd-wol;font-size: 12px;
-margin-right: 5px;">دوبله فارسی فیلم هالک ژانر اکشن محصول سال ۲۰۱۷</p></a>
-</div>
-<div class="cover-bot">
-    <a><img src="file:///C:/Users/pedram1/Desktop/url/hulk-fixed.png"
-        style="object-fit: cover;width: 200px !important;height: 300px; 
-       border-radius:2px;margin-bottom: 5px;">
-<p style="color: white;font-family: samim fd-wol;font-size: 12px;
-margin-right: 5px;">دوبله فارسی فیلم هالک ژانر اکشن محصول سال ۲۰۱۷</p></a>
+    show more
+
+</p>
 </div>
 
 
-    
-    
 </div>
-
 </div>
+    </body>
 
-
-    <script src="script.js"></script>
-</body>
+    <script src="main.js"></script>
 </html>
-
-
-
