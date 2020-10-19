@@ -51,12 +51,12 @@ function likerise(){
 
 function comeshow(){
   if(rise==1){
-  document.getElementById('comentshow').style="height:600px;transition: 0.2s;";
+  document.getElementById('comentshow').style="height:600px;transition: 0.3s;";
   document.getElementById('showcome').innerHTML="hide comments";
 
   rise=0;
   }else{
-    document.getElementById('comentshow').style="height:40px;transition: 0.2s;";
+    document.getElementById('comentshow').style="height:40px;transition: 0.3s;";
     document.getElementById('showcome').innerHTML="show comments";
  
     rise=1;
@@ -75,6 +75,56 @@ map=0;
     map=1;
   }
 }
+
+
+function playvid(){
+  var vid = 1;
+  document.getElementById('mainvid');
+  document.getElementById('  playbtn');
+  playbtn
+if (mainvid.paused){
+  mainvid.play();
+  playbtn.className="fas fa-pause"
+}else{
+  mainvid.pause();
+  playbtn.className="fas fa-play"
+}
+
+
+
+
+ 
+  
+}
+
+var filmshow=1;
+function showmorefilms(){
+if(filmshow===1){
+  document.getElementById('morefilms').style.display="block";
+  document.getElementById('morefilms').style="display:flex;flex-wrap:wrap;"
+  document.getElementById('moretxtfilm').innerHTML="show less";
+  filmshow=0;
+}else{
+document.getElementById('morefilms').style.display="none";
+
+  document.getElementById('moretxtfilm').innerHTML="show more" ;
+  filmshow=1;
+  }
+  
+}
+function catoshow(){
+  if(rise===1){
+    document.getElementById("catogo").style="top:-0px";
+    document.getElementById("catoclick").className="fas fa-caret-up"
+
+    rise=0;
+  }else{
+    document.getElementById("catogo").style="top:-300px";
+    document.getElementById("catoclick").className="fas fa-sort-down"
+    rise=1;
+  }
+}
+
 
 
 
