@@ -3,16 +3,27 @@
     padding: 0px;
     
 }
+@media screen and (min-width:700px){
 .top-menu{
     height: 80px;
     width: 100%;
     background: rgb(15, 15, 15);
     position: fixed;
     top: 0px;
-    
+z-index: 1;
     border-bottom: 1px solid rgb(29, 29, 29)  
 }
-
+.best-in-this-genre{
+    color:cyan;font-family:Arial, Helvetica, sans-serif;
+line-height: 60px;margin-top: 10px !important;;
+margin-right: 80px !important;
+}
+.best-dev{
+    height: 60px;width: 100%;margin-left:40px ;
+}
+.back-img-top{
+    width: 100%;height: 430px;z-index:-1;position: absolute;object-fit: cover;
+}
 #search{
     height: 80px;
     color: white;
@@ -50,6 +61,7 @@ margin-left:58px ;
     height: 280px;
     display: flex;
     border-radius: 2px;
+    overflow: hidden;
     border: 1px solid rgb(25, 25, 25) ;
 margin-right: 40px;
     background: rgba(0,0,0,0.1);
@@ -71,7 +83,7 @@ margin-right: 40px;
     color: white;
 font-size: 25px;
 float: left;
-    left: 20px;
+    left: 35px;
     top: 25px;
     position: absolute;
 }
@@ -80,14 +92,10 @@ float: left;
     cursor: pointer;
 }
 .cover-1 img{
+    object-fit:cover ;
     width: 100%;
-    margin-left: 5px;
-    height: 100%;
-    transition: 0.4s;
-    object-fit: cover;
-    margin: auto;
-border-radius: 2px;
-  
+    height: 280px;
+    transition: 0.2s;
 }
 
 .cover-1 p{
@@ -105,7 +113,7 @@ border-radius: 2px;
 #sidebar{
     height: 100%;
     width: 280px;
-  
+  z-index: 1;
     background: rgb(15, 15, 15);;
     float: right;
     left: -500px;
@@ -169,11 +177,16 @@ cursor: pointer;
 transition: 0.2s ;
 cursor: pointer;
 background: rgba(0,0,0,0.9);
-border:1px solid cyan;
-}
-.cover-1:hover img{
 
- transition: 0.4s;
+
+
+}
+.cover-1  img:hover{
+width: 100%;
+height: 320px;
+ transition: 0.2s;
+
+ border: 1px solid (0,0,0,0.9);
 
 }
 .cover-1:hover p{
@@ -196,9 +209,8 @@ border:1px solid cyan;
     cursor: pointer;
 }
 #search-box{
-    left: 400px;
+    left: 300px;
     top: 15px;
-  position: relative;
   position: absolute;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -207,7 +219,7 @@ border:1px solid cyan;
  border-right: none;
  color: white;
   background: rgb(29, 29, 29);
-  width: 380px;
+  width: 480px;
   height: 45px;
   direction: ltr;
   line-height: 80px;
@@ -272,6 +284,7 @@ border:1px solid cyan;
       display: flex;
     
     }
+    
 .mor-info:hover h5{
     font-size: 14px;
     transition: 0.2s;
@@ -280,8 +293,7 @@ border:1px solid cyan;
 }
 
 #closeinfo{
-    padding: 25px;
-    margin: 10px;
+    margin: 25px;
     display: none;
     color: white;
     transition: 0.2s;
@@ -292,7 +304,6 @@ border:1px solid cyan;
 #closeinfo:hover{
     color: cyan;
     cursor: pointer;
-    background: black;
     transition: 0.2s;
     border-radius: 10px;
 }
@@ -300,9 +311,11 @@ border:1px solid cyan;
     height: 90%;width: 80%;border: 1px solid cyan;background:rgba(0,0,0,0.6);
 position: absolute;margin: auto;top: 30px;left: 135px;display: none;
 }
-.main-vid{
+#mainvid{
     width: 900px;
   margin: auto;
+  height: 505px;
+  z-index: -1;
 }
 #vid-info{
     height: 40px;
@@ -343,7 +356,7 @@ position: absolute;margin: auto;top: 30px;left: 135px;display: none;
 }
 #download-box-p-1080{
     height: 50px;
-    width: 150px;
+    width: 50%;
     margin-left: 10px;
     text-align:center ;
     border:1px solid cyan ;
@@ -358,7 +371,7 @@ position: absolute;margin: auto;top: 30px;left: 135px;display: none;
 }
 #download-box-p-720{
     height: 50px;
-    width: 150px;
+    width: 50%;
     margin-left: 10px;
     text-align:center ;
     border:1px solid cyan ;
@@ -375,7 +388,6 @@ position: absolute;margin: auto;top: 30px;left: 135px;display: none;
     width: 1265px;
     border: 1px solid rgba(73, 73, 73, 0.5);
     display: flex;
-    
     margin-left: 40px !important;
     margin: 15px;
     transition: 0.2s;
@@ -416,7 +428,30 @@ padding-top:10px;
   height: 340px;
     direction: rtl;
     border-radius: 4px;
+overflow: hidden;
+transition: 0.2s;
+border-top: 1px solid transparent;
 margin: 7px;
+padding-bottom: 10px;
+}
+.cover-bot:hover{
+    background: rgb(41, 39, 39);
+    transition: 0.2s;
+    border-top: 1px solid cyan;
+}
+.cover-bot:hover p{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(131, 130, 130) !important;
+    transition: 0.2s;
+}
+.cover-bot a img{
+    transition: 0.2s;
+
+}
+.cover-bot:hover a img{
+transition: 0.2s;
+cursor: pointer;
 }
 #them-settings-top{
     position: absolute;
@@ -465,3 +500,79 @@ margin-bottom: 25px;
 #showmore:hover h3{
     color: cyan;
 }
+#controler{
+    width: 898px;
+    height: 60px;
+background: rgba(0, 0, 0, 0.5);
+top: 980px;
+margin-left: 1px;
+
+position: absolute;
+}
+#playbtn{
+    color: white;
+    margin: 20px;
+
+    margin-left:30px !important ;
+    font-size: 20px;
+    z-index: 1; 
+}
+#playbtn:hover{
+    color: cyan;
+    cursor: pointer;
+}
+#morefilms{
+    display: flex;
+    width: 99%;
+    display: none;
+    flex-wrap: wrap;
+}
+}
+.parter{
+    width: 140px;
+    height: 40px;
+    border: 1px solid rgba(73, 73, 73, 0.5);
+    border-radius:2px ;
+    float: right;
+    position: absolute;
+    right: 300px;
+    display: flex;
+box-shadow: inset 1px 1px 9px 1px rgba(73, 73, 73, 0.2);
+    top: 20px;
+}
+.parter:hover{
+    background: rgba(73, 73, 73, 0.5);
+    cursor: pointer;
+}
+.parter span{
+    font-size:20px ;
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 7px;
+}
+.parter h3{
+color: white;
+position: relative;
+left: 50px;
+margin-top: 8px;
+font-family: samim fd-wol;
+font-size:15px ;
+}
+#catogo{
+    width: 1400px;
+    z-index: 1;
+background: rgb(7, 7, 7);
+    height: 350px;
+    top: -300px;
+transition: 0.2s;
+position: fixed; 
+}
+.glass{
+ position: absolute;
+    margin-bottom: 57px;
+    height: 3px;
+    width: 100%;
+    background: red;
+}
+
